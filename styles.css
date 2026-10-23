@@ -11,12 +11,11 @@ h1, h2 {
   width: 600px;
 }
 .left {
-  display: inline-block;
-  vertical-align: top;
+  float: left;
   width: 600px;
 }
+
 .right {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(100% - 640px); 
+  float: left;
+  width: calc(100% - 640px);
 }
