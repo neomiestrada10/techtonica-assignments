@@ -10,3 +10,13 @@ h1, h2 {
 .description {
   width: 600px;
 }
+.left {
+  display: inline-block;
+  vertical-align: top;
+  width: 600px;
+}
+.right {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 640px); 
+}
