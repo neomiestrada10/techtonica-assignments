@@ -7,3 +7,6 @@ body {
 h1, h2 {
   color: #A34D00;
 }
+.description {
+  width: 600px;
+}
