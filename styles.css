@@ -8,12 +8,15 @@ body {
   border-bottom: 10px solid #593505;
   border-top: 10px solid #593505;
   border-left: 10px solid #593505;
-  padding: 24px;
+  padding: 24px; 
   display: flow-root;
+
 }
 
 .navbar {
   background-color: #FFECC6;
+  width: 95%;
+  margin: 0 auto;
 }
 
 h1,
@@ -22,13 +25,16 @@ h2 {
 }
 
 .top {
-  width: 900px;
+  max-width: 1200px;
+  margin: 0;
+  width: 100%;
 }
 
 .left {
   display: grid;
   float: left;
   margin-top: 12px;
+  margin-left: 0;
   width: 600px;
 }
 
