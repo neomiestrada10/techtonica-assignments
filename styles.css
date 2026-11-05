@@ -31,10 +31,21 @@ h2 {
   float: left;
   margin-top: 12px;
   margin-left: 0;
-  max-width: 50%;
 }
 
 .right {
   margin-top: 12px;
   float: right;
+}
+ 
+@media (width <= 780px) {
+  .left {
+    width: 100%;
+  }
+}
+
+@media (width >= 781px) {
+  .left {
+    width: 50%;
+  }
 }
