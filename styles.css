@@ -13,6 +13,10 @@ body {
   display: flow-root;
 }
 
+.navbar {
+    background-color: #FFECC6;
+}
+
 h1, h2 {
   color: #A34D00;
 }
