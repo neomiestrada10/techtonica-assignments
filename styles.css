@@ -5,13 +5,12 @@ body {
   font-style: normal;
 
   border: 10px solid #E6CE90;
-  padding: 24px;
+  padding: 20px;
   display: flow-root;
 }
 
 .navbar {
   background-color: #F2E5C5;
-  margin: 0;
   width: 100%;
 }
 
@@ -21,31 +20,19 @@ h2 {
 }
 
 .top {
-  max-width: max-content;
-  margin: 0;
   width: 100%;
+  display: flow-root;
 }
 
 .left {
-  display: grid;
-  float: left;
   margin-top: 12px;
-  margin-left: 0;
 }
 
 .right {
   margin-top: 12px;
-  float: right;
-}
- 
-@media (width <= 780px) {
-  .left {
-    width: 100%;
-  }
 }
 
-@media (width >= 781px) {
-  .left {
-    width: 50%;
-  }
+.left img {
+  max-width: 100%;
+  height: auto;
 }
