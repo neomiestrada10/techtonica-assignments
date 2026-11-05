@@ -3,14 +3,10 @@ body {
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
   font-style: normal;
-
-  border-right: 10px solid #593505;
-  border-bottom: 10px solid #593505;
-  border-top: 10px solid #593505;
-  border-left: 10px solid #593505;
+  
+  border: 10px solid #593505;
   padding: 24px; 
   display: flow-root;
-
 }
 
 .navbar {
