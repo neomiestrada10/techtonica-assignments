@@ -1,23 +1,23 @@
 body {
-  background-color: #F0D086;
+  background-color: #FAF5EE;
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
   font-style: normal;
-  
-  border: 10px solid #593505;
-  padding: 24px; 
+
+  border: 10px solid #E6CE90;
+  padding: 24px;
   display: flow-root;
 }
 
 .navbar {
-  background-color: #FFECC6;
-  width: 95%;
-  margin: 0 auto;
+  background-color: #F2E5C5;
+  margin: 0;
+  width: 100%;
 }
 
 h1,
 h2 {
-  color: #A34D00;
+  color: #C3BBA2;
 }
 
 .top {
