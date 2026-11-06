@@ -50,3 +50,10 @@ h2 {
   border-radius: 8px;
   /* Rounds the corner edges of image */
 }
+
+/* : introduces pseudo-class which targets an element only when it is in a certain state */
+/* a targets the html tag for links */
+a:hover {
+  color: #6D3D15;
+  /* Changes color of link when user is hovering over it */
+}
