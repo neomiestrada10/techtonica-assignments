@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FAF5EE;
   font-family: "Hachi Maru Pop", cursive;
@@ -56,4 +60,10 @@ h2 {
 a:hover {
   color: #6D3D15;
   /* Changes color of link when user is hovering over it */
+}
+
+/* Strikethrough style for completed ingredients */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
