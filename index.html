@@ -16,7 +16,7 @@
 </head>
 
 <body> <!-- Creates body tag -->
-    <nav class="navbar navbar-expand-lg"> <!-- Creates navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light"> <!-- Creates navigation bar -->
         <a class="navbar-brand" href="#"> <!-- Creates brand and adds image for brand -->
             <img src="https://media.istockphoto.com/id/1441551928/vector/hand-drawn-doodle-yummy-face-smiley-icon-delicious-holding-fork-and-spoon-illustration.jpg?s=612x612&w=0&k=20&c=u-eUxGfKazl29JGhjV-uulTN3hbvxH-fD0WRKuPLt44="
                 width="80" height="80" alt="Yummy face holding spoon and fork">
@@ -36,7 +36,6 @@
             </ul> <!-- Creates the Home and Link navigation buttons -->
         </div>
     </nav>
-    </div>
     <div class="container-fluid"> <!-- Creates a container-fluid class which is a container and the Parent -->
         <div class="top col-xs-12"> <!-- Creates two classes that will have the same style -->
             <!-- col-xs-12 is a class from the Bootstrap framework that makes an element take up 100% of the screen width -->
@@ -58,14 +57,12 @@
                     <h2>Ingredients</h2>
                     <p>For the Chicken Katsu</p>
                     <ul id="ingredients-list"> <!-- Gives my ingredient list an ID -->
-                        <div id="ingredients-list-div">
-                            <li>2 boneless chicken breasts or thighs</li>
-                            <li>1/4 cup of flour</li>
-                            <li>1 egg</li>
-                            <li>1/2 cup of panko breadcrumbs</li>
-                            <li>Salt and pepper</li>
-                            <li>Oil for frying</li>
-                        </div>
+                        <li>2 boneless chicken breasts or thighs</li>
+                        <li>1/4 cup of flour</li>
+                        <li>1 egg</li>
+                        <li>1/2 cup of panko breadcrumbs</li>
+                        <li>Salt and pepper</li>
+                        <li>Oil for frying</li>
                     </ul>
                     <p>For the Curry and Rice</p>
                     <ul>
@@ -148,6 +145,18 @@
             </div> <!-- End of content division that has content for the right column -->
         </div> <!-- End of content divison that wraps content for the left and right columns -->
     </div> <!-- End of content division that includes container-fluid and it's children -->
+
+    <!-- Bootstrap 4 dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
     <script src="script.js"></script> <!-- Links my JS file -->
 </body> <!-- End of body element -->
 

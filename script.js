@@ -30,3 +30,19 @@ items.forEach((item, index) => {
   item.appendChild(checkbox);
   item.appendChild(label);
 });
+
+const addNoteBtn = document.getElementById("add-note-btn");
+const noteInput = document.getElementById("note-input");
+const notesList = document.getElementById("notes-list");
+
+if (addNoteBtn && noteInput && notesList) {
+  addNoteBtn.addEventListener("click", () => {
+    const text = noteInput.value.trim();
+    if (text !== "") {
+      const noteItem = document.createElement("li");
+      noteItem.textContent = text;
+      notesList.appendChild(noteItem);
+      noteInput.value = "";
+    }
+  });
+}
