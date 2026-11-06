@@ -35,13 +35,11 @@ h2 {
 
 .top {
   width: 100%;
-  display: flow-root;
+  margin-bottom: 16px;
 }
+/* Adds spacing between top class and what follows */
 
-.left {
-  margin-top: 12px;
-}
-
+.left,
 .right {
   margin-top: 12px;
 }
@@ -49,4 +47,6 @@ h2 {
 .left img {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
+  /* Rounds the corner edges of image */
 }
