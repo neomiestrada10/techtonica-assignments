@@ -26,6 +26,15 @@ items.forEach((item, index) => {
   // Appends the ingredient text to the label
   label.appendChild(document.createTextNode(" " + text));
 
+  // Toggle strikethrough class when clicked
+  checkbox.addEventListener("change", function () {
+    if (checkbox.checked) {
+      label.classList.add("completed");
+    } else {
+      label.classList.remove("completed");
+    }
+  });
+
   // Appends the checkbox and label into the list item
   item.appendChild(checkbox);
   item.appendChild(label);
@@ -46,3 +55,17 @@ if (addNoteBtn && noteInput && notesList) {
     }
   });
 }
+
+// Event listener for hiding instructions for how to make chicken katsu
+const toggleBtn = document.getElementById("toggle-steps-btn");
+const stepsList = document.querySelector(".right ol");
+
+toggleBtn.addEventListener("click", function () {
+  if (stepsList.style.display === "none") {
+    stepsList.style.display = "block";
+    toggleBtn.textContent = "Hide Cooking Steps";
+  } else {
+    stepsList.style.display = "none";
+    toggleBtn.textContent = "Show Cooking Steps";
+  }
+});
