@@ -2,28 +2,41 @@ body {
   background-color: #FAF5EE;
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 400;
-  font-style: normal; /* Apply background color and style font */
+  font-style: normal;
+  /* Apply background color and style font */
 
   border: 10px solid #E6CE90;
-  padding: 20px; /* Makes sure contents are not touching the border */
-  display: flow-root;
-  min-height: 100vh; /* Makes sure border is filling up to the width of any screen */
+  padding: 20px;
+  /* Makes sure contents are not touching the border */
+  min-height: 100vh;
+  /* Makes sure border is filling up to the width of any screen */
+  box-sizing: border-box;
 }
 
 .navbar {
   background-color: #F2E5C5;
-  width: 100%;
-} 
+  border-radius: 8px;
+  margin-bottom: 24px;
+  /* Adds spacing on the bottom of navigation bar between navigation bar and title */
+}
 
-h1,
+h1 {
+  color: #7A6038;
+  margin-bottom: 12px;
+  /* Adds spacing between title and description */
+}
+
 h2 {
   color: #8C6D46;
-} /* Adds color to first and second level heading */
+  margin-bottom: 12px;
+  /* Adds spacing between second-level headers and their following content */
+
+}
 
 .top {
   width: 100%;
   display: flow-root;
-} 
+}
 
 .left {
   margin-top: 12px;
