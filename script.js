@@ -56,16 +56,16 @@ if (addNoteBtn && noteInput && notesList) {
   });
 }
 
-// Event listener for hiding instructions for how to make chicken katsu
+// Event listener for hiding instructions
 const toggleBtn = document.getElementById("toggle-steps-btn");
-const stepsList = document.querySelector(".right ol");
+const instructionsContainer = document.getElementById("instructions-container");
 
 toggleBtn.addEventListener("click", function () {
-  if (stepsList.style.display === "none") {
-    stepsList.style.display = "block";
+  if (instructionsContainer.style.display === "none") {
+    instructionsContainer.style.display = "block";
     toggleBtn.textContent = "Hide Cooking Steps";
   } else {
-    stepsList.style.display = "none";
+    instructionsContainer.style.display = "none";
     toggleBtn.textContent = "Show Cooking Steps";
   }
 });
