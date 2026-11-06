@@ -1,65 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--Creates head tag-->
-
-<head>
+<head> <!--Creates head tag-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
-    <!--Adds title-->
-    <title>Chicken Katsu Curry</title>
+    <title>Chicken Katsu Curry</title> <!--Adds title-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
-<!--Creates body tag-->
-
-<body>
+<body> <!--Creates body tag-->
     <div class="container-fluid">
-        <!--Creates navigation bar-->
-        <nav class="navbar navbar-expand-lg">
-            <!--Creates brand and adds image for brand-->
-            <a class="navbar-brand" href="#">
+        <nav class="navbar navbar-expand-lg"> <!--Creates navigation bar-->
+            <a class="navbar-brand" href="#"> <!--Creates brand and adds image for brand-->
                 <img src="https://media.istockphoto.com/id/1441551928/vector/hand-drawn-doodle-yummy-face-smiley-icon-delicious-holding-fork-and-spoon-illustration.jpg?s=612x612&w=0&k=20&c=u-eUxGfKazl29JGhjV-uulTN3hbvxH-fD0WRKuPLt44="
                     width="80" height="80" alt="Yummy face holding spoon and fork">
             </a>
-            <!--Creates button inside navigation bar-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> <!--Creates button inside navigation bar-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <!--Creates the Home and Link navigation buttons-->
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
-                </ul>
+                </ul> <!--Creates the Home and Link navigation buttons-->
             </div>
         </nav>
     </div>
 
-    <div class="container-fluid">
-        <div class="top col-xs-12">
+    <div class="container-fluid"> <!--Creates a container-fluid class which is a container and the Parent-->
+        <div class="top col-xs-12"> <!--Creates two classes that will have the same style-->
+            <!--col-xs-12 is a class from the Bootstrap framework that makes an element take up 100% of the screen width-->
             <h1>Chicken Katsu Curry</h1>
             <p class="description">Chicken Katsu Curry is an easy recipe to make. At the end of this recipe, feel free
                 to check out other recipes that will take your meal to the next level. In the meantime, enjoy this
                 recipe of mine that is perfect for the cold, Fall
-                weather!</p>
+                weather!</p> <!--This is an element tag that has a class-->
         </div>
 
-        <div class="row">
-            <div class="left col-12 col-md-6">
+        <div class="row"> <!--Creates a second set of outer siblings-->
+            <div class="left col-12 col-md-6"> <!--Creates inner siblings -->
                 <div>
                     <img src="chicken_katsu.jpeg" alt="Homemade chicken katsu curry" width="600"
-                        alt="Chicken katsu curry on a plate">
+                        alt="Chicken katsu curry on a plate"> <!--Adds food picture-->
                     <p>Photo Credit: Neomi's Kitchen</p>
                 </div>
 
@@ -74,6 +66,7 @@
                         <li>Salt and pepper</li>
                         <li>Oil for frying</li>
                     </ul>
+
                     <p>For the Curry and Rice</p>
                     <ul>
                         <li>1 small onion</li>
@@ -125,6 +118,7 @@
                         <li> Enjoy!</li>
                     </ol>
                 </div>
+
                 <div>
                     <h2>Other Recipes to Try</h2>
                     <ul>
@@ -132,7 +126,8 @@
                             <a href="https://www.bbcgoodfood.com/recipes/next-level-chicken-katsu-curry">
                                 Next Level Chicken Katsu Curry
                             </a>
-                        </li>
+                        </li> <!--Adds a link in an unordered list-->
+
                         <li>
                             <a href="https://soulandstreusel.com/spicy-korean-chicken-katsu/">
                                 Spicy Korean Chicken Katsu
@@ -140,11 +135,10 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
+            </div> <!--End of content division that has content for the right column-->
 
-    </div>
-
-</body>
+        </div> <!--End of content divison that wraps content for the left and right columns-->
+    </div> <!--End of content division that includes container-fluid and it's children-->
+</body> <!--End of body element-->
 
 </html>
